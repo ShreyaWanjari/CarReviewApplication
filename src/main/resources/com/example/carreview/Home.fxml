@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="home" fx:id="homeAnchor" prefHeight="513.0" prefWidth="635.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.carreview.HomeController">
+   <children>
+      <Button fx:id="maruti" contentDisplay="TOP" layoutX="34.0" layoutY="30.0" mnemonicParsing="false" onAction="#marutiAction" prefHeight="204.0" prefWidth="270.0" style="-fx-border-color: #FFFFFF; -fx-background-color: #00003d;" text="Maruti Suzuki" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/F:/java%20fx%20projects/CarReview/src/marutiS.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button contentDisplay="TOP" layoutX="328.0" layoutY="30.0" mnemonicParsing="false" prefHeight="204.0" prefWidth="270.0" style="-fx-background-color: #00003d; -fx-border-color: #FFFFFF;" text="Renault" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/F:/java%20fx%20projects/CarReview/src/rcar.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button contentDisplay="TOP" layoutX="328.0" layoutY="257.0" mnemonicParsing="false" prefHeight="204.0" prefWidth="270.0" style="-fx-background-color: #00003d; -fx-border-color: #FFFFFF;" text="Hyundai" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/F:/java%20fx%20projects/CarReview/src/hun.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button contentDisplay="TOP" layoutX="34.0" layoutY="257.0" mnemonicParsing="false" prefHeight="204.0" prefWidth="270.0" style="-fx-background-color: #00003d; -fx-border-color: #FFFFFF;" text="Tata Motors" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/F:/java%20fx%20projects/CarReview/src/tata.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
